@@ -1,0 +1,307 @@
+<!--
+  ~ Copyright 2017 Chaos Leong
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Super Reader</string>
+
+    <string name="card_image_content_description">Thumb image of the article.</string>
+    <string name="content_image_description">Image associated with the article.</string>
+    <string name="author_image_description">Thumb image of the author.</string>
+    <string name="captcha_image_description">The verification code required to add a comment.</string>
+    <string name="reply_image_description">Button for reply comment.</string>
+
+    <string name="time_unknown">未知</string>
+    <string name="time_second">刚刚</string>
+    <plurals name="time_minute">
+        <item quantity="one">1 分钟前</item>
+        <item quantity="other">%d 分钟前</item>
+    </plurals>
+    <plurals name="time_hour">
+        <item quantity="one">1 小时前</item>
+        <item quantity="other">%d 小时前</item>
+    </plurals>
+    <plurals name="time_day">
+        <item quantity="one">昨天</item>
+        <item quantity="other">%d 天前</item>
+    </plurals>
+    <plurals name="time_week">
+        <item quantity="one">1 周前</item>
+        <item quantity="other">%d 周前</item>
+    </plurals>
+    <plurals name="time_month">
+        <item quantity="one">1 个月前</item>
+        <item quantity="other">%d 个月前</item>
+    </plurals>
+    <plurals name="time_year">
+        <item quantity="one">1 年前</item>
+        <item quantity="other">%d 年前</item>
+    </plurals>
+
+    <string name="home_summary_format">%1$s · %2$d 评论</string>
+
+    <string name="read_count">阅读 %d</string>
+    <string name="comment_count">评论 %d</string>
+
+    <string name="read_1_decimal_comment_format">%1$.1fk 阅读 · %2$d 评论</string>
+    <string name="read_kilo_comment_format">%1$.0fk 阅读 · %2$d 评论</string>
+    <string name="read_comment_format">%1$dk 阅读 · %2$d 评论</string>
+
+    <string name="no_more_articles">没有更多内容</string>
+    <string name="load_articles_failed">加载失败</string>
+    <string name="no_more_comments">没有更多评论</string>
+
+    <string name="no_content">暂无内容</string>
+
+    <string name="nav_home">CnBeta</string>
+    <string name="nav_rank">今日排行</string>
+    <string name="nav_hot_articles">Solidot</string>
+    <string name="nav_hot_comments">精彩评论</string>
+    <string name="nav_help">帮助 &amp; 反馈</string>
+    <string name="nav_settings">设置</string>
+    <string name="nav_auto_switch_theme">自动切换主题</string>
+
+    <string name="details">文章正文</string>
+    <string name="comment">评论</string>
+
+    <string name="content_comment_count">%d 条评论</string>
+
+    <string-array name="rank_types">
+        <item>最高推荐</item>
+        <item>阅读最多</item>
+        <item>评论最热</item>
+    </string-array>
+
+    <string name="failed_to_load">加载失败，点击按钮重试</string>
+    <string name="retry">重试</string>
+
+    <!-- Preferences -->
+    <string name="display_settings">显示</string>
+    <string name="night_mode">夜间模式</string>
+    <string name="auto_switch_theme">自动切换主题</string>
+    <string name="basic_settings">CnBeta</string>
+    <string name="content_text_level">文章字体大小</string>
+    <string name="default_content_text_level">中</string>
+    <string-array name="content_text_levels">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+    </string-array>
+    <string name="load_image">图片加载</string>
+    <string name="auto_load_image_in_wifi_mode">仅在 Wi-Fi 环境下自动加载图片</string>
+    <string name="mobile_api_mode">官方模式</string>
+    <string name="use_mobile_api">与官方客户端数据保持一致</string>
+    <string name="list_item_style">列表样式</string>
+    <string name="list_item_image_align_start">列表图片居左显示</string>
+    <string name="animation_mode">列表动画</string>
+    <string name="animation_mode_summary">加载列表时显示动画</string>
+    <string name="hide_bars_automatically_mode">隐藏边栏</string>
+    <string name="hide_bars_automatically_mode_summary">首页自动隐藏标题栏及底部栏</string>
+    <string name="clear_cache">清理缓存</string>
+    <string name="clear_cache_summary">清理图片缓存</string>
+    <string name="about">关于</string>
+    <string name="version_name">版本号</string>
+    <string name="update_log">更新日志</string>
+    <string name="license">开源许可</string>
+    <string name="info_default">Unknown</string>
+
+    <!-- Preferences for theme -->
+    <string name="enable">开启</string>
+    <string name="time_of_night">夜间主题</string>
+    <string name="start_time_of_night">开始时间</string>
+    <string name="end_time_of_night">结束时间</string>
+
+    <string name="hot_comment_content">%1$s：%2$s</string>
+    <string name="anonymous">匿名网友</string>
+    <string name="anonymous_web">匿名人士</string>
+    <string name="anonymous_format">%s网友</string>
+    <string name="int_format">%d</string>
+    <string name="author_format">By %s</string>
+
+    <string name="hint_captcha">输入验证码</string>
+    <string name="hint_comment">评论正文</string>
+    <string name="error_captcha_should_not_empty">验证码不能为空</string>
+    <string name="error_comment_should_not_empty">评论不能为空</string>
+    <string name="add_comment_succeed">评论成功，请稍候刷新查看</string>
+    <string name="add_comment_failed_format">评论失败，%s</string>
+    <string name="failed_to_get_captcha">获取验证码失败</string>
+    <string name="operation_failed">操作失败</string>
+
+    <string name="fb_name_hint">姓名 (可选)</string>
+    <string name="fb_contact_hint">QQ 或 Email (可选)</string>
+    <string name="fb_feedback_hint">请填写您的问题或建议</string>
+    <string name="send">发送</string>
+
+    <string name="feedback_subject">[Feedback] 关于 cnBeta 的一些问题</string>
+
+    <string name="feedback_content_should_not_empty">反馈内容不能为空</string>
+    <string name="sent">已发送，感谢您的反馈</string>
+    <string name="fb_feedback_max_length">200</string>
+    <string name="open_in_browser">用浏览器打开</string>
+
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="add_comment">添加评论</string>
+    <string name="comment_closed">评论已关闭</string>
+    <string name="share">分享到</string>
+    <string name="wechat_friends">微信好友</string>
+    <string name="wechat_timeline">朋友圈</string>
+    <string name="share_more">分享</string>
+    <string name="share_to">分享到…</string>
+    <string name="share_link_format">"【%s】    详细信息：%s"</string>
+
+    <string name="transition_details_background" translatable="false">transition_details_background</string>
+    <string name="transition_details_title" translatable="false">transition_details_title</string>
+    <string name="default_captcha_for_mobile_api" translatable="false">0000</string>
+
+    <string name="error_invalid_sid">无效数据，不能查看详细内容</string>
+
+    <string name="email">aukomn@outlook.com</string>
+
+    <string name="notices_title">开源许可</string>
+    <string name="notices_close">关闭</string>
+    <string name="rgba_format" translatable="false">rgba(%1$d,%2$d,%3$d,%4$1f)</string>
+    <string name="custom_notices_format_style" translatable="false">
+        body {
+            font-family: sans-serif;
+            overflow-wrap: break-word;
+            background-color: %1$s;
+        }
+        pre {
+            background-color: %2$s;
+            color: %3$s;
+            padding: 1em;
+            white-space: pre-wrap;
+        }
+        ul {
+            padding-left: 1em;
+            padding-right: 1em;
+            margin: 0px;
+        }
+        li {
+            color: %4$s;
+            list-style: none;
+        }
+        li a {
+            color: %5$s;
+        }
+    </string>
+
+    <string name="bottom_bar_scrolling_behavior">org.chaos.fx.cnbeta.widget.BottomBarSnapBehavior</string>
+
+    <string name="share_error_success">分享成功</string>
+    <string name="share_error_failed">分享失败</string>
+
+    <string name="clear_cache_success">清理成功</string>
+    <string name="clear_cache_failed">清理失败</string>
+    <string name="qq">QQ</string>
+
+    <string name="close">关闭</string>
+
+    <string name="save_image">保存图片</string>
+    <string name="no_space_left">sdcard 空间不足</string>
+    <string name="format_saved_to_path">已保存至：%s</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2015 Chaos
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <style name="CardArticleItemText">
+        <item name="android:textColor">@color/card_text</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="CardArticleItemText.Headline" parent="@style/CardArticleItemText">
+        <item name="android:textSize">@dimen/article_item_text_title</item>
+        <item name="android:textColor">@color/card_text</item>
+        <item name="android:gravity">start</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="CardArticleItemText.Summary" parent="@style/CardArticleItemText">
+        <item name="android:textColor">@color/card_time_text</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/article_item_text_time</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ArticleContentText">
+        <item name="android:textColor">@color/content_text</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:textSize">@dimen/article_text_content</item>
+    </style>
+
+    <style name="CommentItemText">
+        <item name="android:textColor">@color/content_text</item>
+        <item name="android:textSize">@dimen/article_text_comment</item>
+    </style>
+
+    <style name="CommentItemText.Username" parent="CommentItemText">
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CommentItemText.Time" parent="CommentItemText">
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+        <item name="android:textColor">@color/card_time_text</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/article_item_text_time</item>
+    </style>
+
+    <style name="FeedbackEdit">
+        <item name="android:textColor">@color/content_text</item>
+        <item name="android:textSize">@dimen/fb_text</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:padding">@dimen/fb_edit_padding</item>
+        <item name="android:maxLength">50</item>
+    </style>
+
+    <style name="FeedbackEdit.Multi" parent="FeedbackEdit">
+        <item name="android:singleLine">false</item>
+        <item name="android:minLines">5</item>
+        <item name="android:maxLength">200</item>
+    </style>
+
+    <style name="AppTheme.ArticleTitle">
+
+        <item name="android:textSize">16sp</item>
+
+    </style>
+
+    <style name="AppTheme.ArticleDetail">
+
+        <item name="android:textColor">@color/card_text</item>
+        <item name="android:textSize">10sp</item>
+
+    </style>
+
+
+</resources>

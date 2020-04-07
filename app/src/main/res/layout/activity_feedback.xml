@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2015 Chaos
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:divider="?android:attr/listDivider"
+              android:showDividers="middle"
+              android:dividerPadding="@dimen/fb_edit_padding">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/FeedbackEdit.Multi"
+            android:hint="@string/fb_feedback_hint"
+            android:gravity="top"
+            android:imeOptions="actionDone"
+            android:maxLength="200" />
+
+        <TextView
+            android:id="@+id/fb_current_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fb_content_length"
+            android:layout_alignEnd="@+id/feedback"
+            android:layout_alignBottom="@+id/feedback"
+            android:layout_marginEnd="@dimen/fb_edit_padding"
+            android:layout_marginBottom="@dimen/fb_edit_padding"
+            android:text="@string/fb_feedback_max_length" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        style="@style/FeedbackEdit"
+        android:hint="@string/fb_name_hint" />
+
+    <EditText
+        android:id="@+id/contact_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        style="@style/FeedbackEdit"
+        android:hint="@string/fb_contact_hint" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+</LinearLayout>
